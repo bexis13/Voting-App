@@ -5,7 +5,8 @@ const express    = require("express"),
       path       = require("path"),
       cors       = require("cors"),
       bodyParser = require("body-parser"),
-      mongoose   = require("mongoose");
+      mongoose   = require("mongoose"),
+      passport   = require("passport");
       
 //app config
 app.use(cors());
