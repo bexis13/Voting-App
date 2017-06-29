@@ -1,0 +1,6 @@
+{
+    "name": "voting-app",
+    "description": "a simple voting app",
+    "repository": "https://github.com/bexis13/Voting-App",
+    "keywords": ["node","express","heroku","mongodb","mongoose","mlab","passport"]
+}
