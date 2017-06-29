@@ -4,3 +4,6 @@ const express = require("express"),
 router.get('/voting', (request, response)=>{
     response.send("the voting route");
 })
+
+
+module.exports = router;
