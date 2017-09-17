@@ -1,8 +1,17 @@
 const express = require("express"),
       router  = express.Router();
       
-router.get('/voting', (request, response)=>{
-    response.send("the voting route");
+router.get('/', (req, res)=>{
+    const _         = require("underscore");
+	
+	res.render("index", { 
+		// Underscore.js lib
+		_     : _, 
+		
+		// Template data
+		title : "Voting App"
+	});
+
 })
 
 
