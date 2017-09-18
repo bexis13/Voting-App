@@ -5,4 +5,15 @@
 .header{
     background-color: #5DBCD2;
     height: 250px;
+    margin-bottom: 0px;
+}
+
+.real-time-icon{
+    color: #e6e600;
+}
+.works-globally-icon{
+    color: #5CB85C;
+}
+.social-integration-icon{
+    color: #4393B9;
 }
