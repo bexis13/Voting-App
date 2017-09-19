@@ -6,6 +6,16 @@
     background-color: #5DBCD2;
     height: 250px;
     margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    line-height: 60px;
+}
+.header h1{
+    font-size: 60px;
+}
+.header button{
+    width: 200px;
 }
 
 .real-time-icon{
@@ -16,4 +26,8 @@
 }
 .social-integration-icon{
     color: #4393B9;
+}
+
+footer{
+    text-align: right;
 }
