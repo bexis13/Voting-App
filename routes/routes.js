@@ -29,5 +29,19 @@ router.get('/register', (req, res)=>{
 
 })
 
+//login route
+router.get('/login', (req, res)=>{
+    const _         = require("underscore");
+	
+	res.render("login", { 
+		// Underscore.js lib
+		_     : _, 
+		
+		// Template data
+		title : "Voting App"
+	});
+
+})
+
 
 module.exports = router;
