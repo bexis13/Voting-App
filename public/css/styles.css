@@ -9,13 +9,15 @@
     text-align: center;
     color: white;
     font-size: 21px;
-    line-height: 60px;
+    line-height: 50px;
 }
 .header h1{
     font-size: 60px;
 }
 .header button{
     width: 200px;
+    font-size: 18px;
+    padding: 10px;
 }
 .index-main-content{
     text-align: center;
