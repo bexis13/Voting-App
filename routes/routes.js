@@ -70,6 +70,10 @@ router.get('/my-polls', (req, res)=>{
 
 })
 
+//success route
+//voting route
+//results route
+
 
 
 module.exports = router;
