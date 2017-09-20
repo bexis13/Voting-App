@@ -48,3 +48,9 @@ footer{
 .register-form{
     margin-bottom: 150px;
 }
+
+/* new poll page specific styles */
+.new-poll-form{
+    text-align: center;
+    margin-bottom: 100px;
+}
