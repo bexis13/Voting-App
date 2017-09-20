@@ -56,6 +56,20 @@ router.get('/new-poll', (req, res)=>{
 
 })
 
+//my polls route
+router.get('/my-polls', (req, res)=>{
+    const _         = require("underscore");
+	
+	res.render("my-polls", { 
+		// Underscore.js lib
+		_     : _, 
+		
+		// Template data
+		title : "Voting App"
+	});
+
+})
+
 
 
 module.exports = router;
