@@ -71,6 +71,19 @@ router.get('/my-polls', (req, res)=>{
 })
 
 //success route
+router.get('/success', (req, res)=>{
+    const _         = require("underscore");
+	
+	res.render("success", { 
+		// Underscore.js lib
+		_     : _, 
+		
+		// Template data
+		title : "Voting App"
+	});
+
+})
+
 //voting route
 //results route
 
