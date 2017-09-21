@@ -98,6 +98,18 @@ router.get('/voting', (req, res)=>{
 
 })
 //results route
+router.get('/results', (req, res)=>{
+    const _         = require("underscore");
+	
+	res.render("results", { 
+		// Underscore.js lib
+		_     : _, 
+		
+		// Template data
+		title : "Voting App"
+	});
+
+})
 
 
 
