@@ -35,7 +35,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(methodOverride());
 
-
 //passport config
 passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
@@ -46,8 +45,6 @@ app.use(redirectUnmatched);
 function redirectUnmatched(req, res) {
   res.send('we have no such urls.')
 }
-
-
 
 // Run server
 app.listen(process.env.PORT || 8080 || 80 || 3000, ()=>{

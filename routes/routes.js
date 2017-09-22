@@ -110,6 +110,9 @@ router.get('/results', (req, res)=>{
 	});
 
 })
+//plan for next development
+//fix register/login or logout in header partial of pages
+//depending on user state
 
 
 
